@@ -34,6 +34,7 @@ export { I18nConfig, ChonkyFormatters } from './types/i18n.types';
 export { defaultFormatters, getI18nId, getActionI18nId, I18nNamespace } from './util/i18n';
 
 export { setChonkyDefaults } from './util/default-config';
+export { setDebug } from './util/logger';
 
 export { ChonkyDndFileEntryType } from './types/dnd.types';
 export type ChonkyDndFileEntryItem = import('./types/dnd.types').ChonkyDndFileEntryItem;
